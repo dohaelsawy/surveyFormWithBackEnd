@@ -1,0 +1,54 @@
+body{
+   background-color: #21325E;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: #ffffff;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    background-color: #3E497A;
+    padding: 40px;
+    width: 500px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.form-titel{
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    color: srgb(255, 255, 255);
+    padding: 30px;
+}
+#description{
+    font-style: italic;
+}
+.form-items{
+    margin: 10px;
+    border: none;
+    outline: none;
+    gap: 10px;
+}
+input, select ,button ,textarea{
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+input{
+    padding: 5px;
+}
+input:where([type="checkbox"],[type="radio"]){
+    width: 22px;
+    height: 22px;
+}
+textarea{
+    height: 120px;
+}
+
+
+
+
